@@ -1,0 +1,8 @@
+body { font-family: system-ui, Arial, sans-serif; text-align:center; padding:20px; background:#f7f7f7; }
+h1 { margin: 4px 0 10px; }
+#info { font-weight:600; min-height:22px; margin-bottom:8px; }
+.board { display:grid; grid-template-columns:repeat(3,90px); gap:6px; justify-content:center; margin:0 auto 10px; }
+.cell { width:90px; height:90px; display:flex; align-items:center; justify-content:center; border:1px solid #ccc; background:#fff; font-size:2rem; cursor:pointer; user-select:none; }
+.cell.occupied { cursor:not-allowed; background:#f0f0f0; }
+dialog { padding:12px; border-radius:8px; }
+label { display:block; margin:8px 0; }

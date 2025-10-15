@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Tic Tac Toe</h1>
+
+  <!-- start dialog for player names -->
+  <dialog id="nameDialog">
+    <form id="nameForm" method="dialog">
+      <label> Player X: <input id="pX" type="text" required /></label>
+      <label> Player O: <input id="pO" type="text" required /></label>
+      <p id="error" style="color:#b00020; display:none; margin:6px 0 0;">Error</p>
+      <div style="margin-top:8px;">
+        <button id="startBtn" type="submit">Start</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div id="info">Press Start</div>
+  <div id="board" class="board" aria-label="tic tac toe board"></div>
+  <button id="restart" style="display:none">Restart</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
