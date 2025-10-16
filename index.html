@@ -11,17 +11,16 @@
 
   <!-- start dialog for player names -->
   <dialog id="nameDialog">
-    <form id="nameForm" method="dialog">
-      <label> Player X: <input id="pX" type="text" required /></label>
-      <label> Player O: <input id="pO" type="text" required /></label>
+    <form id="nameForm">
+      <label> Player X: <input id="pX" type="text" required ></label>
+      <label> Player O: <input id="pO" type="text" required ></label>
       <p id ="error">Error</p>
       
         <button id="startBtn" type="submit">Start</button>
-      </div>
     </form>
   </dialog>
 
-  <div id="info">Press Start</div>
+  <div id="info"></div>
   <div id="board" class="board" aria-label="tic tac toe board"></div>
   <button id="restart" style="display:none">Restart</button>
 
