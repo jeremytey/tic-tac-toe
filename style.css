@@ -6,3 +6,6 @@ h1 { margin: 4px 0 10px; }
 .cell.occupied { cursor:not-allowed; background:#f0f0f0; }
 dialog { padding:12px; border-radius:8px; }
 label { display:block; margin:8px 0; }
+#error{
+    color:#b00020; display:none; margin:6px 0 6px;
+}
